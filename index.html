@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div id='main1'>
+    <div id="main">
+        <h1>Sign Up</h1>
+        <h4>It's quick and easy.</h4>
+        <hr>
+        <form action="./nextpage.html"><br>
+            <label for="first name"></label>
+            <input type="text" name="first name" id="fn" placeholder="First name" required>
+            <label for="last name"></label>
+            <input type="text" name="last name" id="ln" placeholder="surname" required><br>
+            <label for="mobile"></label>
+            <input type="text" name="mobile" id="mb" placeholder="Mobile number or email address" required><br>
+            <label for="password"></label>
+            <input type="text" name="password" id="ps" placeholder="New password" required><br>
+            <div id="d2">
+                <label for="dob" id="d1">Date of birth</label><br>
+            </div>
+            <input type="date" name="dob" id="dob" required><br>
+            <div id="gen">
+                <label for="gender">Gender</label><br>
+                
+            </div>
+            <div id="sun" >
+                <div id="fe">
+                    <input type="radio" name="gender" id="Female" required>Female
+                </div>
+                <div id="ma">
+                    <input type="radio" name="gender" id="Male" required>Male
+                </div>
+                <div id="cu">
+                    <input type="radio" name="gender" id="Custom" required>Custom
+                </div>
+            </div>
+            <p id="p1">People who our service may have uploaded your contact information to facebook. <span>Learn more</span>.</p><br>
+            <p id="p2">By clicking Sign Up,you agree to our  <span>Terms,Privacy policy and Cookies policy </span>.You may receive SMS notifications from us and can opt out at any time.</p><br>
+            <input type="submit" value="Sign Up" id="btn">
+        
+        </form>
+    </div>
+</div>
+</body>
+</html>
+
+  
